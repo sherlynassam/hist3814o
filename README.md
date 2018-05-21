@@ -6,3 +6,5 @@ From exercise 4.1 to 4.2, I have turned a folder into a repository, verified my 
 
 I don't think I fully understood the making of changes and committing, so i re-did the process. Here is my new 
 
+A few misfortunes I ran into that I hope to resolve: 
+<img width="1254" alt="screenshot 2018-05-21 13 56 17" src="https://user-images.githubusercontent.com/39073694/40322076-285b6ea4-5cff-11e8-8cef-8a16dc5ae5b7.png">
