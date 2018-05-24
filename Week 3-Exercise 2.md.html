@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)file:///Users/sherlynassam/Downloads/Week%203-Exercise%202.md.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Week 3-Exercise 2.md</title><style></style></head><body id="preview">
+<h1><a id="Wget_Exercise_2_0"></a>Wget Exercise 2</h1>
+<p>I successfully downloaded the first page activehistory to my new directory, but when it comes to downloading every paper, I ran into trouble. I inserted the recursive command and the active history URL into the wget <strong>[options] [URL]</strong> formula, but ended up with an “invalid IPv6 numeric address”. However, when I read further, and was made to understand the double-dash command, the input to change depth of pages, and the download speed, I finished with the full formula and had a successful (but lengthy) download with:</p>
+<blockquote>
+<p>wget -r --no-parent -w 2 --limit-rate=20k <a href="http://activehistory.ca/papers/">http://activehistory.ca/papers/</a></p>
+</blockquote>
+</body></html>
