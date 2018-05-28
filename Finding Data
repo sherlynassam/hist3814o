@@ -1,0 +1,20 @@
+I successfully downloaded the first page activehistory to my new directory, but when it comes to downloading every paper, I ran into trouble. I inserted the recursive command and the active history URL into the wget [options] [URL] formula, but ended up with an "invalid IPv6 numeric address". However, when I read further, and was made to understand the double-dash command, the input to change depth of pages, and the download speed, I finished with the full formula and had a successful (but lengthy) download with:
+
+wget -r --no-parent -w 2 --limit-rate=20k http://activehistory.ca/papers/
+
+May 27 Edit:
+(When I tried making a history, I couldn't manage, even though I used the "history > dhbox-work-today.md" code, which is why there are oh-so-many screenshots)
+
+Proceeding with the Active History downloads produced some problem. After being unable to download the pages I needed, I followed Alexei's advice of typing "sudo apt-get install python3-pip", but the DHBox showed me that the newest version was already installed.
+screenshot 2018-05-27 19 08 01
+
+I continued tinkering with it, copying and pasting the script that is supposed to put URLs in the urls.txt file:
+screenshot 2018-05-27 19 16 37
+
+I ran into more complications:
+screenshot 2018-05-27 19 09 56
+
+I tried to find my directory again, but it showed that my directory already existed.
+screenshot 2018-05-27 19 14 30
+
+Having reached the same results over and over, I decided to move onto exercise 3
